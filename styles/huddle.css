@@ -378,3 +378,25 @@ input[type="email"] {
     cursor: pointer;
   }
 }
+@media (max-width: 400px) {
+  input[type="email"] {
+    width: 95%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    border: 0px;
+    padding-left: 1rem;
+    cursor: pointer;
+    outline: none;
+  }
+  .footer-btn {
+    color: #fff;
+    background-color: hsl(321, 100%, 78%);
+    height: 2.5rem;
+    border: 0px;
+    border-radius: 0.4rem;
+    width: 40%;
+    margin-left: 10.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
